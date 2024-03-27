@@ -1,9 +1,10 @@
-server:
-  port: 8080
-
 spring:
   application:
     name: msvc-user
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8080
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/user-db
