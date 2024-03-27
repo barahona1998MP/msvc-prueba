@@ -28,6 +28,7 @@
 		<module>msvc-bike</module>
 		<module>config-server</module>
 		<module>eureka-service</module>
+		<module>gateway-serivce</module>
 	</modules>
 
 	<dependencies>
