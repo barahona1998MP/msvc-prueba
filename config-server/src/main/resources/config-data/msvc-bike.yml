@@ -1,10 +1,9 @@
+server:
+  port: 8003
+
 spring:
   application:
     name: msvc-bike
-  cloud:
-    config:
-      enabled: true
-      uri: http://localhost:8003
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/bike-db

@@ -1,13 +1,12 @@
+server:
+  port: 8002
+
 spring:
   application:
-    name: msvc-user
-  cloud:
-    config:
-      enabled: true
-      uri: http://localhost:8001
+    name: msvc-car
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/user-db
+    url: jdbc:postgresql://localhost:5432/car-db
     username: postgres
     password: 12345
   jpa:
